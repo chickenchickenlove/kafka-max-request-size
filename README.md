@@ -9,3 +9,8 @@
 ```shell
 $ gradle test
 ```
+
+
+### Description for test code
+- `should_fail_with_bigSingleRecord()` : when `max.request.size == 1MB`, big single record (Size == 3MB) should be failed.
+- `should_success_with_smallRecords()` : when `max.request.size == 1MB`, small records (Size = 130KB * 100) should be success.
